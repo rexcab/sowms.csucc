@@ -1,0 +1,425 @@
+html{
+    background-color: #eeeeee;
+}
+.containers{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #eeeeee;
+    
+}
+
+.head{
+    width: 100%;
+    height: 60px;
+    background:rgb(255, 255, 255);
+    display: flex;
+    padding: 5px 10px;
+    margin-left: 200px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.password-container {
+    position: relative;
+  }
+
+  .password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+#load-gif{
+    margin:200px 43%;
+    z-index: 1;
+    position: absolute;
+}
+/* Define the animation */
+@keyframes example {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+
+}
+/* Apply the animation to an element */
+.animated {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.head h2{
+    margin-left: 30px;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+}
+.head i{
+   
+    font-size: 31px;
+    padding: 10px 30px;
+}
+
+.head .head-picture{
+    height: 50px;
+    width: 50px;
+}
+
+.head .logout-btn{
+    
+    margin-top: 10px;
+    background-color: #1ac044;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    height: 35px;
+    padding: 2px 8px;
+
+}
+
+.sidebar .logout-btn{
+    
+    margin-top: 10px;
+    background-color: #1ac044;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 16px;
+}
+.sidebar .name{
+    text-align: center;
+    padding: 7px 0px;
+    margin-bottom: 30px;
+}
+.in-content{
+    padding:93px 0px 20px 220px;
+}
+
+.in-content .e-cards .card{
+    margin: 0 20px;
+}
+.in-content .ss{
+    width: 400px;
+}
+
+.in-content table{
+    background-color: white;
+}
+/*
+.in-content table thead {
+    background-color: rgb(52 52 52);
+    color: white;
+    font-size: 20px;
+}*/
+
+.in-content table thead th{
+
+    /* color: white;*/
+    font-size: 12px; 
+}
+
+
+
+.tops{
+    display: flex;
+}
+.tops .prev-right{
+    display: flex;
+    width: 50%;
+}
+
+.tops .prev-right a{
+    margin-right: 5px;
+}
+
+.tops .search-bar{
+    width: 50%;
+    
+}
+
+.tops .search-bar input{
+    float: right;
+    
+}
+.tops .c-green{
+    color: white;
+    background-color: #1ac044;
+}
+
+.dates{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.dates h6{
+    font-size: 20px;
+    float: right;
+}
+
+.modal .modal-dialog .inform{
+    display: block;
+}
+
+.dis{
+    display: flex;
+}
+
+.form-group{
+    width: 100%;
+    margin-right: 5px;
+}
+
+footer{
+    background: #108910;
+    color: white;
+    width: 100%;
+    
+}
+
+footer p{
+    margin-bottom: 0rem;
+    font-size:13px;
+}
+
+footer span{
+    font-size: 15px;
+}
+
+.content{
+    height: 90.8vh;
+  
+}
+
+.tab-le{
+    overflow-y: scroll;
+    width: 100%;
+    height: 424px;
+}
+.head span{
+    margin-left: 5%;
+    margin-right: 10px;
+    color:white;
+    font-size: 20px;
+    padding-top: 11px;
+}
+
+.add_user .form-group{
+    width: 100%;
+}
+
+.add_user .form-group input{
+    width: 100%;
+}
+
+.nav .nav-item a{
+    font-size: 20px;
+}
+.in-content .left-content{
+    background-color: #e4e4e4;
+    width:70%;
+    margin:0 0 0 20px;
+    border-radius: 15px;
+    padding: 20px 10px; 
+}
+
+.right-content .result table .tr_id:hover{
+    background: rgb(247 186 57);
+}
+
+#result{
+    height: 600px; 
+    overflow: scroll;
+}
+
+.in-content .dash{
+    height: 126px;
+    display: flex;
+}
+
+.in-content .dash .box{
+    background: #118911;
+    margin: 0px 20px;
+    height: 100%;
+    width:240px;
+    text-align: center;
+    color: white;
+}
+
+
+.in-content .dash .box h4{
+    font-size: 54px;
+    margin-bottom: 0;
+}
+
+
+.in-content .dash .box h6{
+    margin-bottom: 0;
+}
+
+.slip-details{
+    margin: 10px 10px;
+}
+.modal .moday-body .slip-logo-header{
+    width: 100%;
+    height: 53px;
+}
+.slip-logo-header img{
+    width: 100%;
+    height: 53px;
+}
+
+.slip-text-header{
+    margin: 10px 0 30px;
+    text-align: center;
+}
+
+.slip-text-header h5{
+    margin: 0;
+    font-size: 16px;
+}
+
+.slip-upper-information{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.slip-upper-information h6{
+    font-size: 14px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.block{
+    display: block;
+}
+
+.slip-upper-information .left{
+    width:64%;
+    border-bottom: 1px solid black; 
+    margin-bottom:0.5rem;
+}
+
+.slip-upper-information .right{
+    width:64%;
+    border-bottom: 1px solid black; 
+    margin-bottom:0.5rem;
+}
+
+.slip-lower-information{
+    display: flex;
+}
+
+.slip-lower-information .box{
+    width: 100%;
+    margin:5px;
+}
+
+.slip-lower-information h5{
+    font-size: 11px;
+}
+
+.slip-lower-information .lign{
+    height: 46px;
+    border-bottom: 1px solid black;
+    padding-top: 11px;
+}
+
+.sidebar{
+    z-index: 1;
+    top: 0;
+    background: #202020;
+    margin-top: 0px;
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: calc(100% - 0%);
+    color: white;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+
+.sidebar a:hover{
+    background-color:#118911;
+    color: white;
+}
+
+.block .in-content .ins-content .right-content table tbody tr:hover{
+    background-color:#118911;
+    color: white;
+}
+
+#result-pon .ttable tbody tr:hover{
+    background-color:#118911;
+    color: white;
+}
+.s_off{
+    cursor: pointer;
+}
+.sidebar h6{
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left: 17px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+    
+.sidebar .tags{
+    padding: 5px 20px;
+    background-color: #6c6b6b;
+}
+
+.sidebar .tags h4{
+    font-size: 20px;
+}
+
+.sidebar .logo{
+    height: 84px;
+    width: 84px;
+    margin: 10px 0 10px 54px;
+}
+
+.sidebar .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.ttable{
+    padding-top: 20px;
+}
+
+
+.table-bordered>:not(caption)>*>* {
+    border-width: 0 1px;
+    font-size: 12px;
+}
+
+.slip-table .table>:not(caption)>*>* {
+    padding: 0.2rem;
+}
+
+@media print {
+    @page {
+      margin: 1rem; 
+  }
+}
